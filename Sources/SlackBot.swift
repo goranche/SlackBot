@@ -22,6 +22,7 @@ public class SlackBot {
 	public enum SlackBotError: Error {
 		// TODO: Add error cases as needed
 		case unknown
+		case missingConfig
 		case invalidRtmResponse
 		case connectionDropped
 		case connectionRefused(String)
